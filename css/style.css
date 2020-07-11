@@ -1,0 +1,159 @@
+
+html{
+    font-family: 'Oxygen', sans-serif;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(/img/wall1.jpg);
+    background-size: cover;
+}
+
+.container{
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+section{
+    border: 1px solid white;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    font-family: "Lora", serif;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+#chicken, #sushi, #beef{
+    text-align: center;
+    font-size: large;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#chicken-div, #beef-div, #sushi-div{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.navbar-brand{
+    font-size: 2em;
+    border: 0 0 10px 10px;
+    color: white;
+    padding-top: 40px;
+}
+
+#header-nav {
+    border: 0;
+    background-color: black;
+    color: white;
+  }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid lightblue;
+  }
+  
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+
+  .nav-header {
+    background-color: #FFFFFF;
+  }
+  
+  .nav-brand {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    
+    
+  }
+  
+  #nav-list {
+    color: white;
+  }
+
+  #nav-list a{
+      text-align: center;
+  }
+
+  .text-center{
+      font-family: "Lora", serif;
+      font-style: italic;
+      font-weight: bold;
+      color: black;
+      padding-top: 2px;
+      padding-bottom:2px ;
+  }
+
+  
+  .item {
+    color: white;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  
+
+#logo-img{
+    background: url(/img/logo.png)no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px 15px 10px 0;
+   
+}
+.navbar-header button.navbar-toggle
+{
+    margin-top: -45px!important;
+}
+
+
+@media (max-width:1199px)
+{
+    .navbar-brand{
+    padding-top: 10px;
+    }
+}
+
+
+@media (max-width:1024px)
+{
+    .navbar-brand{
+    padding-top: 15px;
+    }
+}
+
+
+@media (min-width:990px) and (max-width:1198px)
+{
+    .navbar-brand{
+        padding-top:40px;
+        }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
